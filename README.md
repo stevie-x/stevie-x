@@ -1,16 +1,22 @@
-## Hi there 👋
+# Hey, I'm Upanshu 👋
 
-<!--
-**stevie-x/stevie-x** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+C++ developer interested in:
+- Low latency systems
+- Quant/trading systems
+- Algorithms & competitive programming
+- Cybersecurity
 
-Here are some ideas to get you started:
+## Current Projects
+- Multi-Agent Trading Simulator
+- DSA Visualizer
+- Portfolio Website
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tech Stack
+C++ • Python • Git • Linux • HTML/CSS • JavaScript
+
+## Competitive Programming
+- Codeforces: 900+
+- Learning system design & performance engineering
+
+## Stats
+<github stats cards>

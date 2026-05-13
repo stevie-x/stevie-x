@@ -24,7 +24,7 @@ Built for IICPC Summer Hackathon 2026. A platform that containerizes contestant-
 
 ---
 
-## stack
+## Stack
 
 ```
 C++     ████████████████░░░░  primary
@@ -46,8 +46,7 @@ Linux · Docker · Redis · Git
 ## Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=stevie-x&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stevie-x&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff" height="160"/>
+  <img src="https://streak-stats.demolab.com?user=stevie-x&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff"/>
 </p>
 
 ---

@@ -1,45 +1,54 @@
-# Upanshu ⚡
+# Upanshu Smit
 
 ```cpp
-while (alive) {
-    build();
-    benchmark();
-    optimize();
-}
+while (alive) { build(); benchmark(); ship(); }
 ```
 
-Low-latency systems · Trading infrastructure · Competitive programming · Security
+C++ systems developer. Low-latency infrastructure. Competitive programmer.
+Currently: Research Intern @ IIT BHU · B.Tech Mathematics & Computing, RGIPT '28
 
 ---
 
-## What I'm Building
+## Building
 
-**[C++ Multi-Agent Crypto Trading Simulator](https://github.com/stevie-x/Cpp-Multi-Agent-Trading-Simulator)**  
-Limit order book with price-time priority matching, atomic order IDs, and multiple strategy agents (Random, Momentum) trading against live ETH market data. Next: multithreaded architecture with lock-free SPSC queues targeting sub-microsecond match latency.
+**[C++ Multi-Agent Crypto Trading Simulator](https://github.com/stevie-x/Cpp-Multi-Agent-Trading-Simulator)**
+`C++17` `libwebsockets` `Python`
 
-**[Distributed Matching Engine Benchmarking Platform](https://github.com/stevie-x/IICPC-SUMMER-TRADING-HACKATHON-2026-)**  
-Built for IICPC Summer Hackathon 2026. A platform that containerizes contestant-submitted trading engines, stress-tests them with a distributed Go bot fleet (1000+ concurrent goroutines), and scores them on p50/p99 latency, TPS, and fill correctness — streamed to a live leaderboard.
+Price-time priority limit order book with alignas(64) cache-line-aligned structs, zero-malloc slab allocator, and 4-thread lock-free SPSC pipeline. Connected to live Binance WebSocket feed. FIX 4.2 parser. Walk-forward validated strategies — RSI overfits (Sharpe 1.61 → -2.45), Momentum holds (0.41 → 4.71).
 
-**DSA Visualizer** · **Portfolio Website**
+**[Distributed Matching Engine Benchmarking Platform](https://github.com/stevie-x/IICPC-SUMMER-TRADING-HACKATHON-2026-)**
+`Go` `Redpanda` `Kafka`
+
+Built for IICPC Summer Hackathon 2026. 1000 concurrent goroutines, 4-wave ramping load, p50/p90/p99 latency telemetry, automated breaking point detection. Decoupled via Redpanda pipeline.
+
+**CP Proctoring Engine** *(in progress)*
+`C++17` `OpenCV` `JavaScript` `WebSocket`
+
+Real-time proctoring system for competitive programming platforms. Browser extension (Manifest V3) captures behavioural signals cross-referenced with Codeforces API. C++ local agent handles face detection, gaze tracking, OS-level enforcement.
 
 ---
 
 ## Stack
 
 ```
-C++     ████████████████░░░░  primary
-Go      ████████░░░░░░░░░░░░  growing fast
-Python  ██████░░░░░░░░░░░░  scripting / viz
+C++17      ████████████████░░░░  primary
+Go         ████████░░░░░░░░░░░░  systems / distributed  
+Python     ██████░░░░░░░░░░░░░░  scripting / viz
 ```
 
-Linux · Docker · Redis · Git
+`Linux` `Git` `Make` `OpenCV` `libwebsockets` `Redpanda`
 
 ---
 
 ## Competitive Programming
 
-- Codeforces **1362**
-- Focus: graph algorithms, segment trees, DP
+| Platform | Rating | Problems |
+|---|---|---|
+| Codeforces | 1366 (Pupil) | 555 |
+| CodeChef | 1552 | 74 |
+| LeetCode | 1552 | 90 |
+
+700+ solved across all platforms · JEE Advanced top 2% (1.4M candidates)
 
 ---
 
@@ -49,6 +58,10 @@ Linux · Docker · Redis · Git
   <img src="https://streak-stats.demolab.com?user=stevie-x&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff"/>
 </p>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=stevie-x&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&hide=stars"/>
+</p>
+
 ---
 
-<sub>currently obsessed with: order book data structures · lock-free queues · how exchanges actually work</sub>I wanna make it look more aesthetic and simple 
+<sub>currently obsessed with: lock-free queues · order book microstructure · how exchanges actually work</sub>

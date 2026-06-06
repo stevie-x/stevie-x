@@ -1,7 +1,11 @@
 # Upanshu Smit
 
 ```cpp
-while (alive) { build(); benchmark(); ship(); }
+while (alive) {
+    build();
+    benchmark();
+    ship();
+}
 ```
 
 C++ systems developer. Low-latency infrastructure. Competitive programmer.

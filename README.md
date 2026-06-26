@@ -9,26 +9,36 @@ while (alive) {
 ```
 
 C++ systems developer. Low-latency infrastructure. Competitive programmer.
-Currently: Research Intern @ IIT BHU · B.Tech Mathematics & Computing, RGIPT '28
+
+`Research Intern @ IIT BHU` · `B.Tech Mathematics & Computing, RGIPT '28`
 
 ---
 
-## Building
+## What I'm Building
 
 **[C++ Multi-Agent Crypto Trading Simulator](https://github.com/stevie-x/Cpp-Multi-Agent-Trading-Simulator)**
-`C++17` `libwebsockets` `Python`
+&nbsp;`C++17` `libwebsockets` `FIX 4.2` `Python`
 
-Price-time priority limit order book with alignas(64) cache-line-aligned structs, zero-malloc slab allocator, and 4-thread lock-free SPSC pipeline. Connected to live Binance WebSocket feed. FIX 4.2 parser. Walk-forward validated strategies — RSI overfits (Sharpe 1.61 → -2.45), Momentum holds (0.41 → 4.71).
+Price-time priority limit order book · `alignas(64)` cache-line-aligned structs · zero-malloc slab allocator · 4-thread lock-free SPSC pipeline (Feed → Bots → Matcher → Logger) · live Binance WebSocket feed · walk-forward validated strategies
+
+```
+Momentum  train 0.41 → test 4.71  ✓ genuine edge
+RSI       train 1.61 → test -2.45  ✗ curve-fitted
+```
+
+&nbsp;
 
 **[Distributed Matching Engine Benchmarking Platform](https://github.com/stevie-x/IICPC-SUMMER-TRADING-HACKATHON-2026-)**
-`Go` `Redpanda` `Kafka`
+&nbsp;`Go` `Redpanda` `Redis` `Docker`
 
-Built for IICPC Summer Hackathon 2026. 1000 concurrent goroutines, 4-wave ramping load, p50/p90/p99 latency telemetry, automated breaking point detection. Decoupled via Redpanda pipeline.
+Built for IICPC Summer Hackathon 2026 · 1000 concurrent goroutines · 5-wave ramping load (10% → 50% → 100%) · HDR Histogram p50/p90/p99/p99.9 telemetry · automated breaking-point detection · decoupled via per-contestant Redpanda topics
 
-**CP Proctoring Engine** *(in progress)*
-`C++17` `OpenCV` `JavaScript` `WebSocket`
+&nbsp;
 
-Real-time proctoring system for competitive programming platforms. Browser extension (Manifest V3) captures behavioural signals cross-referenced with Codeforces API. C++ local agent handles face detection, gaze tracking, OS-level enforcement.
+**CP Proctoring Engine** &nbsp;`in progress`
+&nbsp;`C++17` `OpenCV` `JavaScript` `Manifest V3`
+
+Real-time behavioural proctoring for competitive programming · browser extension captures signals cross-referenced with Codeforces API · sub-100ms event latency · replaced $15–30/session commercial tools
 
 ---
 
@@ -36,23 +46,23 @@ Real-time proctoring system for competitive programming platforms. Browser exten
 
 ```
 C++17      ████████████████░░░░  primary
-Go         ████████░░░░░░░░░░░░  systems / distributed  
-Python     ██████░░░░░░░░░░░░░░  scripting / viz
+Go         ████████░░░░░░░░░░░░  systems / distributed
+Python     ██████░░░░░░░░░░░░░░  scripting / analysis
 ```
 
-`Linux` `Git` `Make` `OpenCV` `libwebsockets` `Redpanda`
+`Linux` `GDB` `Valgrind` `Make` `libwebsockets` `Redpanda` `OpenCV`
 
 ---
 
 ## Competitive Programming
 
-| Platform | Rating | Problems |
+| Platform | Rating | Solved |
 |---|---|---|
-| Codeforces | 1366 (Pupil) | 555 |
+| Codeforces | 1366 | 555 |
 | CodeChef | 1552 | 74 |
 | LeetCode | 1552 | 90 |
 
-700+ solved across all platforms · JEE Advanced top 2% (1.4M candidates)
+700+ problems across all platforms · JEE Advanced top 2% (1.4M candidates)
 
 ---
 
